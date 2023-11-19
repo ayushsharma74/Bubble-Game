@@ -65,5 +65,7 @@ pcenter.addEventListener("click",function(details){
     }
     else if(btn != randomNumber){
         decreaseScore();
+        makeBubble();
+        generateRandomHit();
     }
 })
